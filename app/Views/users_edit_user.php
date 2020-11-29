@@ -27,7 +27,13 @@
                         <a href="<?= base_url('https://belajar-ci.test/admin/users/index')?>">Home</a>
                     </li>
                     <li class="active">
-                        <a href="<?= base_url('https://belajar-ci.test/admin/users/user')?>">List user</a>
+                        <a href="<?= base_url('https://belajar-ci.test/admin/users/user')?>">Master user</a>
+                    </li>
+                    <li>
+                        <a href="<?= base_url('https://belajar-ci.test/admin/news/list')?>">Master Berita</a>
+                    </li>
+                     <li>
+                        <a href="<?= base_url('https://belajar-ci.test/admin/pages/hal')?>">Master Halaman</a>
                     </li>
                 </ul>
             </nav>
@@ -71,6 +77,13 @@
                                     <br>
                                     <input type="text" name="contact_no" class="form-control" id="contact_no" placeholder="Masukkan Nomor Contact"
                                     value="<?= $user['contact_no'] ?>">
+                                    <br>
+                                </div>
+                                <div class="form-grup">
+                                    <label for="contact">Password</label>
+                                    <br>
+                                    <input type="text" name="password" class="form-control" id="password" placeholder="Masukkan Password"
+                                    value="<?= $user['password'] ?>">
                                     <br>
                                 </div>
                                 <div class="form-grup">

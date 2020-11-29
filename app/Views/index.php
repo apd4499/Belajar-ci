@@ -26,7 +26,13 @@
                         <a href="<?= base_url('https://belajar-ci.test/admin/users/index')?>">Home</a>
                     </li>
                     <li>
-                        <a href="<?= base_url('https://belajar-ci.test/admin/users/user')?>">List User</a>
+                        <a href="<?= base_url('https://belajar-ci.test/admin/users/user')?>">Master User</a>
+                    </li>
+                     <li>
+                        <a href="<?= base_url('https://belajar-ci.test/admin/news/list')?>">Master Berita</a>
+                    </li>
+                     <li>
+                        <a href="<?= base_url('https://belajar-ci.test/admin/pages/hal')?>">Master Halaman</a>
                     </li>
                 </ul>
             </nav>
